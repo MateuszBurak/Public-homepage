@@ -19,6 +19,7 @@ html {
 .link {
     color: #3f63c0;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .link:hover {
