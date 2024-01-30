@@ -7,7 +7,7 @@ html {
 }
 
 .body {
-    background-color: #efe8f0;
+    background-color: #e5dae7;
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -19,7 +19,7 @@ html {
 
 .dark {
     color: whitesmoke;
-    background-color: #050305;
+    background-color: #734e78;
     transition-duration: 0.4s;
 }
 

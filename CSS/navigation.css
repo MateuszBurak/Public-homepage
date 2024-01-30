@@ -1,6 +1,6 @@
 .navigation {
     padding: 1% 1%;
-    border-radius: 50px 5px 50px 5px;
+    border-radius: 5px 5px 50px 50px;
     border-right: 10px solid hsla(0, 0%, 100%, .5);
     border-left: 10px solid hsla(0, 0%, 100%, .5);
     background-image: linear-gradient(to bottom right, #8f6197, #b493ba);
