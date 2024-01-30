@@ -1,8 +1,9 @@
 .footer {
+    color: whitesmoke;
     padding: 1% 1%;
     border-radius: 5px 50px 5px 50px;
-    border-right: 10px solid hsla(0,0%,100%,.5);
-    border-left: 10px solid hsla(0,0%,100%,.5);
-    background-image: linear-gradient(to bottom right, #c7aecb, #e0d2e2);
-    box-shadow: 0px 0px 40px 40px linear-gradient(to bottom right, #c7aecb, #e0d2e2);
+    border-right: 10px solid hsla(0, 0%, 100%, .5);
+    border-left: 10px solid hsla(0, 0%, 100%, .5);
+    background-image: linear-gradient(to bottom right, #8f6197, #b493ba);
+    box-shadow: 0px 0px 40px 40px linear-gradient(to bottom right, #8f6197, #b493ba);
 }
