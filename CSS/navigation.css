@@ -16,5 +16,21 @@
 .navigation__row {
     display: inline-block;
     margin: 0 10px;
-    font-size: x-large;
+    font-size: large;
 }
+
+.navigation__button {
+    background-color: #689661;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.navigation__button:hover {
+    background-color: #44623f;
+  }

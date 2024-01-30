@@ -20,6 +20,7 @@ html {
     color: #3f63c0;
     text-decoration: none;
     font-weight: bold;
+    transition-duration: 0.4s;
 }
 
 .link:hover {
