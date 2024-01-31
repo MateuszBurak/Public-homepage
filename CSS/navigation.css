@@ -21,10 +21,10 @@
 
 .navigation__button {
     cursor: pointer;
-    background-color: #689661;
     border: none;
     border-radius: 5px;
-    color: white;
+    background-color: #e5dae7;
+    color: #000000;
     padding: 10px 25px;
     text-align: center;
     display: inline-block;
@@ -32,11 +32,6 @@
     transition-duration: 0.4s;
 }
 
-.darkButton {
-    background-color: #4f7249;
-    transition-duration: 0.4s;
-}
-
 .navigation__button:hover {
     background-color: #44623f;
-}
+    color: white;}

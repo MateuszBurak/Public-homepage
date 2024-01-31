@@ -6,7 +6,6 @@ const section = document.querySelectorAll(".section");
 
 buttonTheme.addEventListener("click", () => {
     body.classList.toggle("dark");
-    navigation__button.classList.toggle("darkButton");
     section.forEach((item) =>
         item.classList.toggle("darkSection"));
 themeName.innerText = body.classList.contains("dark") ? "jasne" : "ciemne";
