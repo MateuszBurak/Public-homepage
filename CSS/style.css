@@ -11,14 +11,14 @@ html {
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
-    color: #000000;
+    color: #f5f5f5;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     transition-duration: 0.4s;
 }
 
 .dark {
-    color: whitesmoke;
+    color: #f5f5f5;
     background-color: #734e78;
     transition-duration: 0.4s;
 }
