@@ -5,12 +5,11 @@
 
 Hi! I'm Matthew and this is my site, serving as a portfolio and the initial way to get to know me as a programmer and a person.
 
-It's supposedly an infinite work-in-progress, so, obviously, expect **changes**!
+It's supposedly an infinite work-in-progress, so, expect **changes**!
 
 ## Website versions
 
 1. First version - January 31, 2024
-![First version of the website][images/first version.png]
 
 The first version of the website utilized basic tools of a Frontend developer, first using normalize.min.css and alternative Box Model. The site also followed the BEM convention.
 
