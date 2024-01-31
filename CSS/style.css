@@ -17,7 +17,6 @@ html {
 }
 
 .dark {
-    color: #f5f5f5;
     background-color: #734e78;
     transition-duration: 0.4s;
 }

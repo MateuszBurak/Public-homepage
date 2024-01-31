@@ -9,7 +9,7 @@ It's supposedly an infinite work-in-progress, so, expect **changes**!
 
 ## Website versions
 
-1. First version - January 31, 2024
+1. First version - January 31st, 2024
 
 The first version of the website utilized basic tools of a Frontend developer, first using normalize.min.css and alternative Box Model. The site also followed the BEM convention.
 
