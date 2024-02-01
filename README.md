@@ -15,34 +15,31 @@ The first version of the website utilized basic tools of a Frontend developer, f
 
 Something that I've found on my own, stranding from the course a little bit, was using *const* and *querySelectorAll* to grab every HTML element with the class **section** instead of taking the first one and adding the dark theme only to one section.
 
-Other than that, it's a pretty simple code. It uses ES6+ features.
+Other than that, it's a pretty simple code. It uses ES6+ features and has 2 functions:
 
 ```javascript
-let  buttonTheme  =  document.querySelector(".js-buttonTheme");
+const toggleDarkTheme = () => {
 
-let  themeName  =  document.querySelector(".js-themeName");
+    const body = document.querySelector(".body");
 
-let  body  =  document.querySelector(".body");
+    body.classList.toggle("dark");
 
-let  navigation__button  =  document.querySelector(".navigation__button");
+    const section = document.querySelectorAll(".section");
 
-const  section  =  document.querySelectorAll(".section");
+    section.forEach((item) =>
+        item.classList.toggle("darkSection"));
 
+    const themeName = document.querySelector(".js-themeName");
 
+    themeName.innerText = body.classList.contains("dark") ? "jasne" : "ciemne";
+    }
+```
 
-buttonTheme.addEventListener("click", () => {
+```javascript
+const init = () => {
+    const buttonTheme = document.querySelector(".js-buttonTheme");
 
-body.classList.toggle("dark");
-
-navigation__button.classList.toggle("darkButton");
-
-section.forEach((item) =>
-
-item.classList.toggle("darkSection"));
-
-themeName.innerText  =  body.classList.contains("dark") ?  "jasne"  :  "ciemne";
-
-}
-
-)
+    buttonTheme.addEventListener("click", toggleDarkTheme)
+    }
+init();
 ```
