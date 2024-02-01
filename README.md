@@ -26,4 +26,4 @@ Something that I've found on my own, stranding from the course a little bit, was
 
 Other than that, it's a pretty simple code that changes the background and some borders to create a sort of a dark theme of the site. It uses ES6+ features and looks like this:
 
-![A gif of the dark theme script](images/dark_Theme.gif)
+![A gif of the dark theme script](images/darkTheme.gif)
