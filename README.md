@@ -15,7 +15,7 @@ The first version of the website utilized basic tools of a Frontend developer, f
 
 Something that I've found on my own, stranding from the course a little bit, was using *const* and *querySelectorAll* to grab every HTML element with the class **section** instead of taking the first one and adding the dark theme only to one section.
 
-Other than that, it's a pretty simple code.
+Other than that, it's a pretty simple code. It uses ES6+ features.
 
 ```javascript
 let  buttonTheme  =  document.querySelector(".js-buttonTheme");
