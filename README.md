@@ -9,13 +9,15 @@ It's supposedly an infinite work-in-progress, so, expect **changes**!
 
 ## Website versions
 
-1. First version - January 31st, 2024
+### 1. First version - January 31st, 2024
 
 ![A gif of the first version of the site](images/Animation.gif)
 
 The first version of the website utilized basic tools of a Frontend developer, first using normalize.min.css and alternative Box Model. The site also followed the BEM convention.
 
 Something that I've found on my own, stranding from the course a little bit, was using *const* and *querySelectorAll* to grab every HTML element with the class **section** instead of taking the first one and adding the dark theme only to one section.
+
+I've done it so that the bottom borders change colors for each section.
 
 ```javascript
     const section = document.querySelectorAll(".section");
